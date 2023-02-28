@@ -1,0 +1,86 @@
+body {
+	background-repeat: no-repeat;
+    background-color: #1240AB;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+
+button {
+    border: none;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    line-height: 28px;
+    border-radius: 9px;
+    font-size: 1.2em;
+    background: #FF7400;
+    transition: 0.3s;
+  }
+
+button:hover, select:hover {
+    transform: scale(1.05);
+}
+
+div .button {
+    margin: 5px 5px;
+    font-size: 1.2em;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+.active{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.category {
+    border: none;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    line-height: 28px;
+    border-radius: 9px;
+    font-size: 1.2em;
+    color: black;
+    background: #FFD300;
+    transition: 0.3s;
+}
+
+.recipe {
+    padding: 10px 20px;
+    white-space: pre-line;
+}
+
+main {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media all and (max-width: 1000px) {
+    h1 {
+        font-size: 1.4em
+    }
+
+    .recipe {
+        padding: 0px 5px;
+        white-space: pre-line;
+    }
+
+    main {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 5px;
+    }
+}
